@@ -15,7 +15,7 @@ For example it comes with default values to expose the `docker_gwbridge`.
 Imagine you are exposing the "metrics" endpoint that comes with docker over tcp/9393.
 
 ```bash
-$ docker run -d --name socat-test -p 39393:9393 localhost:5000/jnovack/socat:v0.1.0
+$ docker run -d --name socat-test -p 39393:9393 jnovack/socat
 $ curl localhost:39393/metrics
 # HELP engine_daemon_container_actions_seconds The number of seconds it takes to process each container action
 # TYPE engine_daemon_container_actions_seconds histogram
