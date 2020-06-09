@@ -1,6 +1,6 @@
-FROM alpine:3.7
+FROM alpine:3.12
 
-ARG version=1.0.0
+ARG version=1.0.1
 ARG build_date=unknown
 ARG commit_hash=unknown
 ARG vcs_url=unknown
